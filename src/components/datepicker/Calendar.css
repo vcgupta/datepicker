@@ -1,0 +1,65 @@
+
+.box{
+    border: 2px #abcdeb solid;
+    box-sizing: border-box;
+}
+
+.box svg{
+    font-size: small;
+    color: #b9b9b9;
+}
+.box .clickable svg{
+    cursor: pointer;
+}
+.box .clickable:hover svg{
+    color: black;
+}
+
+.row.month{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row.hours{
+    justify-content: space-around;
+    margin: 18px 0 5px 0;
+}
+
+.row.week-names .cell{
+    width: 26px;
+    font-size: small;
+     
+}
+
+.row.week-days .cell{
+    width:26px;
+    font-size: small;
+    border: 1px solid #dedeff;
+    box-sizing: border-box;
+}
+
+.row.week-days .cell:not(.disabled){
+    cursor: pointer;
+}
+.row.week-days .cell:not(.disabled):hover{
+    color:blue;
+}
+
+.row.week-days .cell.current-date{
+    font-weight: 900;
+}
+.row.week-days .cell.highlighted{
+    background-color: #b1b1ff;
+}
+.row.week-days .cell.hovered{
+    background-color: #2f2fee;
+}
+
+.row.hours .fields input{
+    width: 30px;
+    border: solid 1px #dedeff;
+}
+
+.row.month{
+    height: 30px;;
+}

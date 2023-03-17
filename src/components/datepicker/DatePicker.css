@@ -1,0 +1,40 @@
+.row{
+ display: flex;
+}
+.col{
+    display: inline-block;
+}
+
+.date-picker{
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.calendar{
+    min-height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.calendar.to{
+    margin-left: 80px;
+}
+.preset-date button{
+    border: 1px solid rgb(0, 247, 255);
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    background-color: azure;
+    cursor: pointer;
+}
+.preset-date button:hover{
+    background-color: rgb(174, 191, 191);
+}
+
+.preset-date button:first-of-type{
+    border-radius: 2px 0 0 2px;
+}
+.preset-date button:last-of-type{
+    border-radius: 0 2px 2px 0;
+}
