@@ -1,0 +1,11 @@
+.date-input{
+    margin-right: 20px;
+}
+.date-input div{
+    text-align:left;
+}
+.date-input input{
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 2px;
+    width: 105px;
+}
